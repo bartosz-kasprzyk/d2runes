@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runy w Diablo II</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="js-body">
+    <p>
+        <button class="js-button"><span class="js-textChange">Włącz</span> gradient</button>
+    </p>
+    <header class="header">
+        <img class="header__logo" src="https://i.postimg.cc/GpPH85V0/d2r.png" alt="logo Diablo 2">
+        <h1 class="header__title">Runy w Diablo II</h1>
+    </header>
+    <main>
+        <nav class="navigation">
+            <p>Spis treści:</p>
+            <ul class="navigation__sections">
+                <li><a class="navigation__link" href="#runy">Runy</a></li>
+                <li><a class="navigation__link" href="#slowa-runiczne">Słowa runiczne</a>
+                    <ul class="navigation__list">
+                        <li><a class="navigation__link" href="#duch-w-mieczu">Duch (wersja w mieczu)</a></li>
+                        <li><a class="navigation__link" href="#duch-w-tarczy">Duch (wersja w tarczy)</a></li>
+                        <li><a class="navigation__link" href="#enigma">Enigma</a></li>
+                        <li><a class="navigation__link" href="#olsnienie">Olśnienie</a></li>
+                        <li><a class="navigation__link" href="#nieskonczonosc">Nieskończoność</a></li>
+                        <li><a class="navigation__link" href="#wezwanie-do-broni">Wezwanie do broni</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <section id="runy" class="section">
+            <p class="text"><strong>Runy</strong> to kamienie, dzięki którym można wzmacniać posiadane przez nas
+                przedmioty
+                zawierające gniazda na klejnoty. Dodają one różne właściwości, w zależności od rodzaju przedmiotu.
+                Włożone w odpowiedniej kolejności tworzą słowo runiczne, które nadaje przedmiotom nowe właściwości.
+            </p>
+            <img class="image" src="https://i.postimg.cc/7Z3xmTV0/runes.jpg" alt="runy w Diablo 2">
+
+            <h2 class="subheader">Spis run</h2>
+            <div class="table_container">
+                <table class="table">
+                    <tr>
+                        <th class="table_cell--colHeader table_cell" scope="col" colspan="2">Runa</th>
+                        <th class="table_cell--colHeader table_cell" scope="col">Składniki</th>
+                        <th class="table_cell--colHeader table_cell" scope="col">
+                            Właściwości
+                        </th>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#1</th>
+                        <td class="table_cell">El</td>
+                        <td class="table_cell">-</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +1 do promienia światła,
+                            +50 do skuteczności ataku<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +1 do promienia światła,
+                            +15 do obrony<br>
+                            <span class="boldFont">Tarcza:</span> +1 do promienia światła
+                            +15 do obrony<br>
+                            <div class="greyFont">Wymagany lvl postaci: 11</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#2</th>
+                        <td class="table_cell">Eld</td>
+                        <td class="table_cell">3x El</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +75% obrażeń przeciwko nieumarłym,
+                            +50
+                            do
+                            skuteczności ataku
+                            przeciwko nieumarłym<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> zmniejsza utratę wytrzymałości o 15%<br>
+                            <span class="boldFont">Tarcza:</span> +7% do bloku<br>
+                            <div class="greyFont">Wymagany lvl postaci: 11</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#3</th>
+                        <td class="table_cell">Tir</td>
+                        <td class="table_cell">3x Eld</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +2 do Many za każdego zabitego
+                            przeciwnika<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +2 do Many za każdego zabitego
+                            przeciwnika<br>
+                            <span class="boldFont">Tarcza:</span> +2 do Many za każdego zabitego przeciwnika<br>
+                            <div class="greyFont">Wymagany lvl postaci: 13</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#4</th>
+                        <td class="table_cell">Nef</td>
+                        <td class="table_cell">3x Tir</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> Odrzucenie<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +30 do obrony przeciwko pociskom<br>
+                            <span class="boldFont">Tarcza:</span> +30 do obrony przeciwko pociskom<br>
+                            <div class="greyFont">Wymagany lvl postaci: 13</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#5</th>
+                        <td class="table_cell">Eth</td>
+                        <td class="table_cell">3x Nef</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> -25% do obrony celu<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> Regeneracja many +15%<br>
+                            <span class="boldFont">Tarcza:</span> Regeneracja many +15%<br>
+                            <div class="greyFont">Wymagany lvl postaci: 15</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#6</th>
+                        <td class="table_cell">Ith</td>
+                        <td class="table_cell">3x Eth</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +9 do maksymalnych obrażeń<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> 15% obrażeń zamienia się w manę<br>
+                            <span class="boldFont">Tarcza:</span> 15% obrażeń zamienia się w manę<br>
+                            <div class="greyFont">Wymagany lvl postaci: 15</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#7</th>
+                        <td class="table_cell">Tal</td>
+                        <td class="table_cell">3x Ith</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> 75 pkt obrażeń od trucizny przez 5
+                            sekund<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +35% odporności na trucizny<br>
+                            <span class="boldFont">Tarcza:</span> +35% odporności na trucizny<br>
+                            <div class="greyFont">Wymagany lvl postaci: 17</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#8</th>
+                        <td class="table_cell">Ral</td>
+                        <td class="table_cell">3x Tal</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +5-30 obrażeń od ognia<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +35% odporności na ogień<br>
+                            <span class="boldFont">Tarcza:</span> +35% odporności na ogień<br>
+                            <div class="greyFont">Wymagany lvl postaci: 19</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#9</th>
+                        <td class="table_cell">Ort</td>
+                        <td class="table_cell">3x Ral</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +1-50 obrażeń od błyskawic<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +35% odporności na błyskawice<br>
+                            <span class="boldFont">Tarcza:</span> +35% odporności na błyskawice<br>
+                            <div class="greyFont">Wymagany lvl postaci: 21</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#10</th>
+                        <td class="table_cell">Thul</td>
+                        <td class="table_cell">3x Ort</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +3-14 obrażeń od zimna<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +35% odporności na zimno<br>
+                            <span class="boldFont">Tarcza:</span> +35% odporności na zimno<br>
+                            <div class="greyFont">Wymagany lvl postaci: 23</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#11</th>
+                        <td class="table_cell">Amn</td>
+                        <td class="table_cell">3x Thul<br>
+                            1x Nadkruszony Topaz</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> 7% kradzieży życia przy
+                            trafieniu<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> Atakujący otrzymuje 14 pkt obrażeń<br>
+                            <span class="boldFont">Tarcza:</span> Atakujący otrzymuje 14 pkt obrażeń<br>
+                            <div class="greyFont">Wymagany lvl postaci: 25</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#12</th>
+                        <td class="table_cell">Sol</td>
+                        <td class="table_cell">3x Amn<br>
+                            1x Nadkruszony Ametyst</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +9 do minimalnych obrazeń<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> -7 pkt otrzymanych obrażeń<br>
+                            <span class="boldFont">Tarcza:</span> -7 pkt otrzymanych obrażeń<br>
+                            <div class="greyFont">Wymagany lvl postaci: 27</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#13</th>
+                        <td class="table_cell">Shael</td>
+                        <td class="table_cell">3x Sol<br>
+                            1x Nadkruszony Szafir</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> Zwiększa szybkość ataku (+20)<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> Szybsze odzyskiwanie równowagi (+20)<br>
+                            <span class="boldFont">Tarcza:</span> Szybszy blok (+20)<br>
+                            <div class="greyFont">Wymagany lvl postaci: 29</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#14</th>
+                        <td class="table_cell">Dol</td>
+                        <td class="table_cell">3x Shael<br>
+                            1x Nadkruszony Rubin</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> 25% szans na ucieczkę potwora przy
+                            trafieniu<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +7 do uzupełnienia życia<br>
+                            <span class="boldFont">Tarcza:</span> +7 do uzupełnienia życia<br>
+                            <div class="greyFont">Wymagany lvl postaci: 31</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#15</th>
+                        <td class="table_cell">Hel</td>
+                        <td class="table_cell">3x Dol<br>
+                            1x Nadkruszony Szmaragd</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> -20% do wymagań<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> -15% do wymagań<br>
+                            <span class="boldFont">Tarcza:</span> -15% do wymagań<br>
+                            <div class="greyFont">Wymagany lvl postaci: brak</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#16</th>
+                        <td class="table_cell">Io</td>
+                        <td class="table_cell">3x Hel<br>
+                            1x Nadkruszony Diament</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +10 Witalności<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +10 Witalności<br>
+                            <span class="boldFont">Tarcza:</span> +10 Witalności<br>
+                            <div class="greyFont">Wymagany lvl postaci: 35</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#17</th>
+                        <td class="table_cell">Lum</td>
+                        <td class="table_cell">3x Io<br>
+                            1x Topaz ze skazą</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +10 Energii<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +10 Energii<br>
+                            <span class="boldFont">Tarcza:</span> +10 Energii<br>
+                            <div class="greyFont">Wymagany lvl postaci: 37</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#18</th>
+                        <td class="table_cell">Ko</td>
+                        <td class="table_cell">3x Lum<br>
+                            1x Ametyst ze skazą</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +10 Zręczności<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +10 Zręczności<br>
+                            <span class="boldFont">Tarcza:</span> +10 Zręczności<br>
+                            <div class="greyFont">Wymagany lvl postaci: 39</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#19</th>
+                        <td class="table_cell">Fal</td>
+                        <td class="table_cell">3x Ko<br>
+                            1x Szafir ze skazą</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +10 Siły<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +10 Siły<br>
+                            <span class="boldFont">Tarcza:</span> +10 Siły<br>
+                            <div class="greyFont">Wymagany lvl postaci: 41</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#20</th>
+                        <td class="table_cell">Lem</td>
+                        <td class="table_cell">3x Fal<br>
+                            1x Rubin ze skazą</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +75% dodatkowego złota z
+                            potworów<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +50% dodatkowego złota z potworów<br>
+                            <span class="boldFont">Tarcza:</span> +50% dodatkowego złota z potworów<br>
+                            <div class="greyFont">Wymagany lvl postaci: 43</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#21</th>
+                        <td class="table_cell">Pul</td>
+                        <td class="table_cell">3x Lem<br>
+                            1x Szmaragd ze skazą</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +75% obrażeń przeciwko demonom,
+                            +100
+                            do
+                            skuteczności ataku przeciwko demonom<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +30% Obrony<br>
+                            <span class="boldFont">Tarcza:</span> +30% Obrony<br>
+                            <div class="greyFont">Wymagany lvl postaci: 45</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#22</th>
+                        <td class="table_cell">Um</td>
+                        <td class="table_cell">2x Pul<br>
+                            1x Diament ze skazą</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> 25% szansy na otwarcie rany<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +15% do wszystkich odporności<br>
+                            <span class="boldFont">Tarcza:</span> +22% do wszystkich odporności<br>
+                            <div class="greyFont">Wymagany lvl postaci: 47</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#23</th>
+                        <td class="table_cell">Mal</td>
+                        <td class="table_cell">2x Um<br>
+                            1x Topaz</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> Uniemożliwia leczenie się
+                            potworów<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> Obrażenia od magii zmniejszone o 7<br>
+                            <span class="boldFont">Tarcza:</span> Obrażenia od magii zmniejszone o 7<br>
+                            <div class="greyFont">Wymagany lvl postaci: 49</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#24</th>
+                        <td class="table_cell">Ist</td>
+                        <td class="table_cell">2x Mal<br>
+                            1x Ametyst</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> 30% większa szansa na znajdowanie
+                            magicznych przedmiotów<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> 25% większa szansa na znajdowanie magicznych
+                            przedmiotów<br>
+                            <span class="boldFont">Tarcza:</span> 25% większa szansa na znajdowanie magicznych
+                            przedmiotów<br>
+                            <div class="greyFont">Wymagany lvl postaci: 51</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#25</th>
+                        <td class="table_cell">Gul</td>
+                        <td class="table_cell">2x Ist<br>
+                            1x Szafir</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +20% do skuteczności ataku<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +5 do maksymalnej odporności na trucizny<br>
+                            <span class="boldFont">Tarcza:</span> +5 do maksymalnej odporności na trucizny<br>
+                            <div class="greyFont">Wymagany lvl postaci: 53</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#26</th>
+                        <td class="table_cell">Vex</td>
+                        <td class="table_cell">2x Gul<br>
+                            1x Rubin</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> 7% wykradanie many<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +5 do maksymalnej odporności na ogień<br>
+                            <span class="boldFont">Tarcza:</span> +5 do maksymalnej odporności na ogień<br>
+                            <div class="greyFont">Wymagany lvl postaci: 55</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#27</th>
+                        <td class="table_cell">Ohm</td>
+                        <td class="table_cell">2x Vex<br>
+                            1x Szmaragd</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> +50% obrażeń<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +5 do maksymalnej odporności na zimno<br>
+                            <span class="boldFont">Tarcza:</span> +5 do maksymalnej odporności na zimno<br>
+                            <div class="greyFont">Wymagany lvl postaci: 57</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#28</th>
+                        <td class="table_cell">Lo</td>
+                        <td class="table_cell">2x Ohm<br>
+                            1x Diament</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> 20% szansy na zabójcze
+                            uderzenie<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +5 do maksymalnej odporności na
+                            błyskawice<br>
+                            <span class="boldFont">Tarcza:</span> +5 do maksymalnej odporności na błyskawice<br>
+                            <div class="greyFont">Wymagany lvl postaci: 59</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#29</th>
+                        <td class="table_cell">Sur</td>
+                        <td class="table_cell">2x Lo<br>
+                            1x Topaz bez skazy</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> 20% szans na oślepienie podczas
+                            trafienia<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +5% do Many<br>
+                            <span class="boldFont">Tarcza:</span> +50 do Many<br>
+                            <div class="greyFont">Wymagany lvl postaci: 61</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#30</th>
+                        <td class="table_cell">Ber</td>
+                        <td class="table_cell">2x Sur<br>
+                            1x Ametyst bez skazy</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> 20% szansy na zadanie druzgocącego
+                            uderzenia<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> Otrzymywane obrażenia zmniejszone o 8%<br>
+                            <span class="boldFont">Tarcza:</span> Otrzymywane obrażenia zmniejszone o 8%<br>
+                            <div class="greyFont">Wymagany lvl postaci: 63</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#31</th>
+                        <td class="table_cell">Jah</td>
+                        <td class="table_cell">2x Ber<br>
+                            1x Szafir bez skazy</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> Ignoruje obronę celu<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> +5% do życia<br>
+                            <span class="boldFont">Tarcza:</span> +50 do życia<br>
+                            <div class="greyFont">Wymagany lvl postaci: 65</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#32</th>
+                        <td class="table_cell">Cham</td>
+                        <td class="table_cell">2x Jah<br>
+                            1x Rubin bez skazy</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> 32% szans na zamrożenie
+                            przeciwnikna
+                            na 3
+                            sek podczas trafienia<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> Nie można zamrozić<br>
+                            <span class="boldFont">Tarcza:</span> Nie można zamrozić<br>
+                            <div class="greyFont">Wymagany lvl postaci: 67</div>
+                        </td>
+                    </tr>
+
+                    <tr class="table_row">
+                        <th class="table_cell--rowHeader table_cell" scope="row">#33</th>
+                        <td class="table_cell">Zod</td>
+                        <td class="table_cell">2x Cham<br>
+                            1x Szmaragd bez skazy</td>
+                        <td class="table_cell"><span class="boldFont">Broń:</span> Niezniszczalność<br>
+                            <span class="boldFont">Hełm/Zbroja:</span> Niezniszczalność<br>
+                            <span class="boldFont">Tarcza:</span> Niezniszczalność<br>
+                            <div class="greyFont">Wymagany lvl postaci: 69</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <hr>
+        <section id="slowa-runiczne" class="section">
+            <h2 class="subheader">Słowa runiczne</h2>
+            <p><strong>Słowa runiczne</strong> [ang. <i>Rune Words</i>] są kombinacją kilku różnych run, które mają
+                na celu
+                stworzenie potężnej broni bądź uzbrojenia. Odpowiednia kolejność run w przedmiotach z gniazdami
+                pozwala otrzymać nie tylko podstawowe atrybuty run, ale również bonusowe, które zwiększają moc
+                przedmiotu.</p>
+            <p>Większość najważniejszych broni czy uzbrojenia w grze pochodzi ze słów runicznych. Wiele z nich jest
+                bardzo ciężko zdobyć z powodu bardzo rzadkiego występowania run na wysokich poziomach. Poza runami
+                trzeba również znaleźć odpowiedni przedmiot. Należy wspomnieć, że słowa runiczne zadające wysokie
+                obrażenia najlepiej łączyć z przedmiotami, które mają również wysoki podstawowy współczynnik ataku.
+                Doświadczeni gracze bardzo długo poszukują odpowiednich przedmiotów oraz run aby ostatecznie
+                stworzyć wymarzony przedmiot.</p>
+            <p>Oto kilka najbardziej popularnych słów runicznych:</p>
+            <nav class="navigation--borderless">
+                <ul>
+                    <li><a class="navigation__link" href="#duch-w-mieczu">Duch (wersja w mieczu)</a></li>
+                    <li><a class="navigation__link" href="#duch-w-tarczy">Duch (wersja w tarczy)</a></li>
+                    <li><a class="navigation__link" href="#enigma">Enigma</a></li>
+                    <li><a class="navigation__link" href="#olsnienie">Olśnienie</a></li>
+                    <li><a class="navigation__link" href="#nieskonczonosc">Nieskończoność</a></li>
+                    <li><a class="navigation__link" href="#wezwanie-do-broni">Wezwanie do broni</a></li>
+                </ul>
+            </nav>
+
+            <div class="container">
+                <table class="table">
+                    <tr>
+                        <th class="table_cell--colHeader table_cell" scope="col">Słowo runiczne</th>
+                        <th class="table_cell--colHeader table_cell" scope="col">Wymagany przedmiot</th>
+                        <th class="table_cell--colHeader table_cell" scope="col">Runy</th>
+                        <th class="table_cell--colHeader table_cell" scope="col">Efekt</th>
+                    </tr>
+
+                    <tr class="table_row" id="duch-w-mieczu">
+                        <td class="table_cell">Duch<br>(wersja w mieczu)</td>
+                        <td class="table_cell">Miecz (4 gniazda)</td>
+                        <td class="table_cell">Tal + Thul + Ort + Amn</td>
+                        <td class="table_cell">+2 do wszystkich umiejętności<br>
+                            25-35% szybsze rzucanie czarów<br>
+                            55% szybsze odzyskiwanie równowagi<br>
+                            1-50 obrażeń od błyskawic<br>
+                            3-14 obrażenia od zimna<br>
+                            75 obrażeń od trucizny przez 5 sekund<br>
+                            7% punkty zdrowia wykradzione za każde trafienie<br>
+                            +250 obrona przeciwko pociskom<br>
+                            +22 do żywotności<br>
+                            89-122 punktów many<br>
+                            3-8% absorpcja magii</td>
+                    </tr>
+
+                    <tr class="table_row" id="duch-w-tarczy">
+                        <td class="table_cell">Duch<br>(wersja w tarczy)</td>
+                        <td class="table_cell">Tarcza (4 gniazda)</td>
+                        <td class="table_cell">Tal + Thul + Ort + Amn</td>
+                        <td class="table_cell">+2 do wszystkich umiejętności<br>
+                            25-35% szybsze rzucanie czarów<br>
+                            55% szybsze odzyskiwanie równowagi<br>
+                            +250 obrona przeciwko pociskom<br>
+                            +22 do żywotności<br>
+                            89-122 punktów many<br>
+                            3-8% absorpcja magii<br>
+                            +35% odporności na zimno<br>
+                            +35% odporności na błyskawice<br>
+                            +35% odporności na truciznę<br>
+                            atakujący otrzymuje 14 obrażeń</td>
+                    </tr>
+
+                    <tr class="table_row" id="enigma">
+                        <td class="table_cell">Enigma</td>
+                        <td class="table_cell">Zbroja (3 gniazda)</td>
+                        <td class="table_cell">Jah + Ith + Ber</td>
+                        <td class="table_cell">+2 do wszystkich umiejętności<br>
+                            45% szybsze bieganie/chodzenie<br>
+                            +1 do umiejętności Teleport<br>
+                            +750-775 obrony<br>
+                            +0-74 siły (zależne od poziomu postaci)<br>
+                            5% zwiększone zdrowie postaci<br>
+                            obrażenia zmniejszone o 8%<br>
+                            14 punktów zdrowia za zabicie wroga<br>
+                            15% otrzymanych obrażeń przechodzi na manę<br>
+                            1-99% znajdowanie magicznych przedmiotów (zależne od poziomu postaci)</td>
+                    </tr>
+
+                    <tr class="table_row" id="olsnienie">
+                        <td class="table_cell">Olśnienie</td>
+                        <td class="table_cell">Broń drzewcowa/laska/broń dystansowa (4 gniazda)</td>
+                        <td class="table_cell">Ral + Tir + Tal + Sol</td>
+                        <td class="table_cell">12-17 poziom aury Medytacja podczas noszenia<br>
+                            35% szybsze rzucanie czarów<br>
+                            200-260% zwiększone obrażenia<br>
+                            +9 do minimalnych obrażeń<br>
+                            180-250% premia do skuteczności ataku<br>
+                            5-30 obrażeń od ognia<br>
+                            75 obrażeń od trucizny przez 5 sekund<br>
+                            1-6 do Krytycznego uderzenia<br>
+                            +5 do wszystkich atrybutów<br>
+                            2 punkty many za każdego zabitego wroga<br>
+                            23% szansa zdobycia magicznych przedmiotów</td>
+                    </tr>
+
+                    <tr class="table_row" id="nieskonczonosc">
+                        <td class="table_cell">Nieskończoność</td>
+                        <td class="table_cell">Broń drzewcowa (4 gniazda)</td>
+                        <td class="table_cell">Ber + Mal + Ber + Ist</td>
+                        <td class="table_cell">50% szansa na rzucenie 20-poziomowego zaklęcia Seryjne błyskawice po
+                            zabiciu wroga<br>
+                            12 poziom aury Przekonanie podczas noszenia<br>
+                            35% szybsze chodzenie/bieganie<br>
+                            255-325% zwiększone obrażenia<br>
+                            -55% do odporności na błyskawice wroga<br>
+                            40% szansa na druzgocące uderzenie<br>
+                            uniemożliwia leczenie się potworów<br>
+                            0,5-49,5 żywotności (zależne od poziomu postaci)<br>
+                            30% szansa zdobycia magicznych przedmiotów<br>
+                            21 poziom Zbroi cyklonu (30 ładunków)</td>
+                    </tr>
+
+                    <tr class="table_row" id="wezwanie-do-broni">
+                        <td class="table_cell">Wezwanie do broni</td>
+                        <td class="table_cell">Broń (5 gniazd)</td>
+                        <td class="table_cell">Amn + Ral + Mal + Ist + Ohm</td>
+                        <td class="table_cell">+1 do wszystkich umiejętności<br>
+                            40% zwiększona szybkość ataku<br>
+                            250-290% zwiększone obrażenia<br>
+                            5-30 obrażeń od ognia<br>
+                            7% punktów zdrowia wykradzionych za trafienie<br>
+                            +2-6 do umiejętności Dowodzenie<br>
+                            +1-6 do umiejętności Rozkazy<br>
+                            +1-4 do umiejętności Okrzyk bojowy<br>
+                            uniemożliwia leczenie się potworów<br>
+                            +12 uzupełniania życia<br>
+                            30% znajdowanie magicznych przedmiotów</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        &copy; 2023 by Bartosz Kasprzyk - wszystkie prawa zastrzeżone
+    </footer>
+</body>
+
+</html>

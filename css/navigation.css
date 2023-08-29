@@ -1,0 +1,36 @@
+.navigation {
+    border: 2px solid #000000;
+    border-radius: 10%;
+    max-width: 350px;
+    padding: 0px 10px;
+    box-shadow: 5px 5px 9px -2px #DF9C0C;
+}
+
+.navigation--borderless {
+    max-width: 350px;
+    padding: 0px 10px;
+}
+
+.navigation__sections {
+    list-style-type: none;
+
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #df9c0c;
+}
+
+.navigation__link:hover {
+    color: #a57307;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: #5c3f05;
+}
+
+.navigation__list {
+    list-style-type: disc;
+}
