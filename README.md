@@ -1,6 +1,6 @@
 # Diablo II Resurrected - runes & runewords
 
-![logo Diablo](/images/share1.png)
+![logo Diablo](/images/shareCropped.png)
 
 ## DEMO
 
