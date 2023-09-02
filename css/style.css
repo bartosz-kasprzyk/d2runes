@@ -11,15 +11,13 @@ html {
 .image {
     margin: 50px auto;
     width: 90%;
-    max-width: 700px;
     display: block;
-    padding: 0px 50px;
 }
 
 .js-body {
     max-width: 1000px;
     margin: auto;
-    background: rgb(0, 0, 0);
+    background: #000000;
     color: #eee;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
