@@ -4,10 +4,11 @@
 
 .header__title {
     color: #df9c0c;
-    text-shadow: 3px 2px 5px #935016;
-    font-size: 35px;
+    text-shadow: 2px 2px 3px #935016;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 40px;
     padding: 5px 10px;
-    box-shadow: 0px 15px 12px -10px #DF9C0C;
+    box-shadow: 0px 12px 12px -10px #DF9C0C;
 }
 
 .header__logo {
