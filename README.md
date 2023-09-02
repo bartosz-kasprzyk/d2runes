@@ -1,6 +1,6 @@
-# Diablo II Resurrected - runes and runewords
+# Diablo II Resurrected - runes & runewords
 
-![logo Diablo](https://i.postimg.cc/GpPH85V0/d2r.png)
+![logo Diablo](/images/share1.png)
 
 ## DEMO
 
