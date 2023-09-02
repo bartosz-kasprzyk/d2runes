@@ -1,8 +1,8 @@
 # Diablo II Resurrected - runes & runewords
 
-![logo Diablo](/images/shareCropped.png)
+![logo strony](/images/shareCropped.png)
 
-## DEMO
+## Link
 
 https://bartek-kasprzyk.github.io/d2runes/
 
