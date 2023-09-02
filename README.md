@@ -2,7 +2,7 @@
 
 ![logo Diablo](/images/shareCropped.png)
 
-## DEMO
+## Link
 
 https://bartek-kasprzyk.github.io/d2runes/
 
