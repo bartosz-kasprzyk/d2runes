@@ -14,7 +14,7 @@ html {
     display: block;
 }
 
-.js-body {
+.body {
     max-width: 1000px;
     margin: auto;
     background: #000000;
@@ -38,7 +38,7 @@ html {
     color: #fff;
 }
 
-.js-button {
+.button {
     margin: 10px;
     background-color: #282828;
     color: #eee;
