@@ -2,9 +2,9 @@
 
 ![logo strony](/images/shareCropped.png)
 
-## Link
+## Demo
 
-https://bartek-kasprzyk.github.io/d2runes/
+https://bartosz-kasprzyk.github.io/d2runes/
 
 ## Description
 
