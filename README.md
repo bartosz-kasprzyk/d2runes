@@ -1,4 +1,4 @@
-# Diablo II Resurrected - runes & runewords
+# <img width="30px" src="/images/icon.png" /> Diablo II - Runes & Runewords
 
 ![logo strony](/images/shareCropped.png)
 
