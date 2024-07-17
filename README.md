@@ -29,4 +29,4 @@ using technologies such as:
 
 This project was created by [Bartosz Kasprzyk](https://github.com/bartosz-kasprzyk). Please feel free to contact me if you need any further information.
 
-Thank you for visiting my website!
+Thank you for visiting my website! ✨
