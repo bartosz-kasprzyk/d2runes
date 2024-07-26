@@ -8,7 +8,11 @@ https://bartosz-kasprzyk.github.io/d2runes/
 
 ## Description
 
-This page contains the most important informations about runes, their properties and runewords that can be made out of them. You can also find here a few most popular runewords that every D2 player knows and loves.
+"Stay awhile and listen!" 🧙‍♂️💬
+
+This page contains the most important informations about runes, their properties and runewords that can be made out of them. You can find here a list of all 33 runes along with a few most popular runewords that every D2 player knows and loves.
+
+## Technologies
 
 Project was created with:
 * HTML
